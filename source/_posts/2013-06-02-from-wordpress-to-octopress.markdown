@@ -2,6 +2,7 @@
 layout: post
 title: "From WordPress to Octopress"
 date: 2013-06-02 12:59
+published: false
 comments: true
 categories: [programming, miscellaneous, productivity] 
 ---
