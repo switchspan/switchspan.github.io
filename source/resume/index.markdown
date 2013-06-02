@@ -2,8 +2,8 @@
 layout: page
 title: "resume"
 date: 2013-06-01 15:33
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 #### Values

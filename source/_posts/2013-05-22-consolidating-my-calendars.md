@@ -2,13 +2,13 @@
 layout: post
 title: "Consolidating my calendars"
 description: ""
+published: false
 category: lifehacks 
 tags:
 - calendar
 - productivity
 - organization
 ---
-{% include JB/setup %}
 With at least 3 locations that my calendar events are in (Google
 Calendar, MS Outlook, and Mac Calendar/iCloud) I am looking to
 consolidate my calendars.
