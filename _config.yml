@@ -98,3 +98,6 @@ google_analytics_tracking_id: UA-41419813-1
 
 # Facebook Like
 facebook_like: false
+
+# Tapirgo Search
+tapir_token: 51ac9df83f61b042d60001bc
