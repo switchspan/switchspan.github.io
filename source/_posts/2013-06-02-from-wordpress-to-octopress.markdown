@@ -9,7 +9,7 @@ categories: [programming, miscellaneous, productivity]
 
 ## Some changes
 
-You may or may not have noticed that this blog has switched from a
+You may or may not have noticed this blog has switched from a
 hosted [WordPress](http://www.wordpress.org) blog to a [Octopress](http://octopress.org) blog.
 I originally started looking at migrating the blog for a couple of
 reasons:
