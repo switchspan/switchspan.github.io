@@ -104,21 +104,6 @@ rake deploy     #deploy the site to your deploy location (i.e. github)
 ```
 You can even abbreviate deployment to: ```rake gen_deploy```
 
-Here is a snippet:
-
-``` yaml Octopress _config.yml file
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
-url: http://yourblogurl.com
-title: Your Blog Name
-subtitle: Some catchy subtitle..
-author: Your Name Here
-simple_search: http://google.com/search
-description: This will show in the META tags
-``` 
-
 Octopress also has plenty of themes as a starting point for customizing your own blog. 
 The github repo [here](https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes) is a good starting point for 3rd party Octopress themes.  
 
