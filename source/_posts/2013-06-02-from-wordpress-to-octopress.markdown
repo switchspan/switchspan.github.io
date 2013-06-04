@@ -5,9 +5,7 @@ date: 2013-06-02 12:59
 comments: true
 categories: [programming, miscellaneous, productivity] 
 ---
-{% img center /images/wordpress_to_octopress.png 640 264 'Wordpress to Octopress' %}
-
-## Some changes
+{% img right /images/wordpress_to_octopress.png 440 'Wordpress to Octopress' %}
 
 You may or may not have noticed this blog has switched from a
 hosted [WordPress](http://www.wordpress.org) blog to a [Octopress](http://octopress.org) blog.
@@ -95,7 +93,7 @@ description: This will show in the META tags
 ``` 
 
 Making changes is as easy as changing the appropriate key/value
-pair and run ```rake preview``` to view it on http://localhost:4000 
+pair and then from the terminal, run: ```rake preview``` to view it on http://localhost:4000 
 
 Deploying the site is just as easy:
 ``` bash
