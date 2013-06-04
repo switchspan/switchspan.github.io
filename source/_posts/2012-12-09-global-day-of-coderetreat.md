@@ -14,7 +14,7 @@ Yesterday I participated in my first
 The coderetreat was facilitated by [Ryan
 Castillo](http://myfakeif.blogspot.com/) from the [757Ruby users group](http://757rb.org) and sponsored by some great companies: [Bootstrap
 Hero](http://www.bootstraphero.com) and [xTuple](http://www.xtuple.com/) sponsored all of the good eats (which are essential to keep the code flowing!) and there were quite a few other great sponsors as well.
-
+<!-- more -->
 ## What is a code retreat?
 
 {% img left /images/IMG_1509.jpg 184 244 %}

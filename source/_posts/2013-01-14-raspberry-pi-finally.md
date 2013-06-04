@@ -7,7 +7,7 @@ categories: [hardware]
 ---
 {% img right /images/IMG_1420.jpg 244 184 Pi size comparison %}
 Christmas really did come early last year: I finally received my [Raspberry Pi](http://www.raspberrypi.org/) model B direct from the UK!  The Raspberry Pi has been so popular that there has been quite a few delays in production and delivery of these tasty little computers -- and at $25 a piece they are economical and tasty!
-
+<!-- more -->
 ## The Un-Boxing
 
 {% img left /images/IMG_1413.jpg 244 184 Unpacking the Pi %}

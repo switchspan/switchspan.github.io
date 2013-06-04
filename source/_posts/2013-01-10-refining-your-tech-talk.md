@@ -15,7 +15,10 @@ tags:
 {% img left /images/hanselman.jpg Scott Hanselman %}
 Last night I did the first tech talk ([RabbitMQ](http://www.rabbitmq.com/) and [EasyNetQ](http://easynetq.com/)) that I have done in at least a one or two years at the [Hampton Roads .NET Users Group (HRNUG)](http://www.hrnug.org/).
 
-I try to have respect for my audience when giving these talks and work provide them with something that is entertaining as well as educational. I wouldn’t want my time wasted with a bad presentation – so I don’t want to waste the audience’s time either! In giving my talks, I strive to emulate the great tech speakers and educators like [Scott Hanselman](http://www.hanselman.com/blog/) and [‘Uncle Bob’ Martin](http://www.8thlight.com/our-team/robert-martin).
+I try to have respect for my audience when giving these talks and work
+provide them with something that is entertaining as well as
+educational. I wouldn’t want my time wasted with a bad presentation – so I don’t want to waste the audience’s time either! In giving my talks, I strive to emulate the great tech speakers and educators like [Scott Hanselman](http://www.hanselman.com/blog/) and [‘Uncle Bob’ Martin](http://www.8thlight.com/our-team/robert-martin).
+<!-- more -->
 
 [Rob Connery](http://wekeroad.com/) does a great interview of Scott Hanselman in his Full Throttle series on Tekpub on [how Scott prepares for a tech talk](http://tekpub.com/productions/ft_speaker). If you are serious about giving tech talks, I highly recommend you look at it.
 

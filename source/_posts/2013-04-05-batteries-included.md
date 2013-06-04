@@ -12,7 +12,7 @@ tags:
 - growl
 ---
 I usually use a desktop PC and my Macbook Air on a daily basis during the week. In going back and forth between Windows and Mac OS X, I have noticed a couple of things that have hammered home the point that hardware is not the only thing Apple does well -- software is too.
-
+<!-- more -->
 {% img left /images/password_protect_files_snowleopard.jpg 350 Save as PDF on Mac %}
 The first thing that occurred to me is Mac OS X has had the ability to print and edit PDF files at least since Mac OS X Leopard. With Windows, I need to download some type of PDF print driver and an Adobe viewer. Mac OS X has preview (which works for both images and PDF files), which will let me view and do some light editing on a PDF file as wells annotate.
 
