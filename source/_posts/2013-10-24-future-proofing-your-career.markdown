@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Future-Proofing Your Career"
-description: ""
-published: false
+description: "Tips for future-proofing a career in software development"
+published: true
 date: 2013-10-24 11:53
 comments: true
 category: career 
