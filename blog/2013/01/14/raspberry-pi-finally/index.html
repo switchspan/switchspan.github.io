@@ -1,0 +1,273 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Raspberry Pi...Finally! - SwitchSpan</title>
+    <meta name="author" content="Ken Taylor">
+    
+	<meta name="description" content="Christmas really did come early last year: I finally received my Raspberry Pi model B direct from the UK! The Raspberry Pi has been so popular that &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="SwitchSpan" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.ico" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+
+    <!-- remove or comment it to disable ajaxification -->   
+    <script src="/javascripts/ajaxify.js"></script>
+   
+    
+    
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-41419813-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body>
+    <div id="wrapper">
+    <header id="header" class="inner"><!-- for more effects see _animate.scss -->
+<h1 class="animated bounceInDown">
+    <div id="headerbg">
+        SwitchSpan
+    </div>
+   
+</h1>
+<h4 class="animated bounceInDown">
+	 <div id="headersub">
+        Hindsight is an exact science...
+    </div>
+</h4>
+<br>
+
+<ul id="social-links" style="text-align:center">
+  
+  <!-- GitHub -->
+  <li>
+  <a href="https://github.com/switchspan" class="github" title="Github"></a>
+  </li>
+  
+  
+  <!-- Google Plus -->
+  <li>
+  <a href="http://plus.google.com/111453594076862569077?rel=author" class="google" title="Google+"></a>
+  </li>
+  
+  
+  
+  <!-- Twitter -->
+  <li>
+  <a href="http://www.twitter.com/taylorka" class="twitter" title="Twitter"></a>
+  </li>
+  
+  
+  
+  
+  
+</ul>
+
+
+<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
+<ul id="nav">
+	<li id="ajax"><a href="/index.html">Home</a></li>
+    <li id="ajax"><a href="/about/index.html">About</a></li>
+    <li id="ajax"><a href="/resume/index.html">Resume</a></li>
+	<li id="ajax"><a href="/blog/archives/index.html">Archives</a></li>
+    <li><a href="/atom.xml">RSS</a></li>
+    
+    <li>
+    <div id="dark">
+        <form method="get" action="/search.html" id="search">
+            <input name="query" type="text" placeholder="Search..." x-webkit-speech />
+        </form>
+    </div>
+    </li>
+        
+</ul>
+
+
+
+
+</header>
+
+<div id="toload">
+<!-- begin toload --> 
+    <div id="content" class="inner">
+        <article class="post">
+	<h2 class="title">Raspberry Pi...Finally!</h2>
+	<div class="entry-content"><p><img class="right" src="/images/IMG_1420.jpg" width="244" height="184" title="Pi size comparison" >
+Christmas really did come early last year: I finally received my <a href="http://www.raspberrypi.org/">Raspberry Pi</a> model B direct from the UK!  The Raspberry Pi has been so popular that there has been quite a few delays in production and delivery of these tasty little computers &mdash; and at $25 a piece they are economical and tasty!</p>
+
+<!-- more -->
+
+
+<h2>The Un-Boxing</h2>
+
+<p><img class="left" src="/images/IMG_1413.jpg" width="244" height="184" title="Unpacking the Pi" >
+I ordered my Raspberry Pi from <a href="http://uk.rs-online.com/">RS Online</a> around August and received it the week of November 26th (2012). The demand for these little computers has been tremendous and there are only a few authorized direct vendors in the UK (you can visit the <a href="http://www.raspberrypi.org/">Raspberry Pi site</a> to find the vendors).</p>
+
+<p>My entire order consisted of the following:</p>
+
+<ul>
+<li>Raspberry Pi model B</li>
+<li>RS Electronics protective case</li>
+<li>4 GB SD Card Pre-loaded with <a href="http://www.raspbian.org/">Raspbian</a> (<a href="http://www.debian.org/">Debian</a> &ldquo;Wheezy&rdquo; based Linux)</li>
+<li><a href="http://en.wikipedia.org/wiki/RCA_connector">RCA Stereo cables</a></li>
+</ul>
+
+
+<p><img class="right" src="/images/IMG_1496.jpg" width="244" height="184" title="Arduino and Pi" ></p>
+
+<p>What I initially noticed when I opened the packaging to my new toy was the size of the Raspberry Pi. I have an <a href="http://www.arduino.cc/">Arduino</a> Uno and the Raspberry is nearly as small as the Uno.  After unboxing and taking pictures of all of the pieces, I worked on getting the Raspberry Pi into the protective case made by RS. This required a small amount of ‘gingerly’ trying to push the Raspberry Pi into place without breaking it or the case, but after a few minutes I figured out the easiest way to get it into and out of the case.</p>
+
+<h2>Initial Setup</h2>
+
+<p><img class="left" src="/images/IMG_1438.jpg" width="244" height="184" title="Keyboard and mouse" ></p>
+
+<p>To connect the Raspberry Pi, you will need a USB keyboard, mouse, a Type B USB Plug (the size that most printers use), A <a href="https://www.sparkfun.com/products/11456">USB AC Wall Adapter/Charger</a> and either an <a href="http://en.wikipedia.org/wiki/HDMI">HDMI</a> connector or <a href="http://en.wikipedia.org/wiki/RCA_connector">RCA</a> cable.
+If you want sound you might want to get a <a href="http://en.wikipedia.org/wiki/Stereo_jack">stereo</a> to <a href="http://en.wikipedia.org/wiki/RCA_connector">RCA</a> jack adaptor.</p>
+
+<p>I started with plugging in the keyboard and most first, as it did not require power.</p>
+
+<p>My next activity was to plug the Pi into my TV via the RCA jack.</p>
+
+<p><img class="right" src="/images/IMG_1426.jpg" width="244" height="184" title="Hardcase and memory card" >
+Always remember this with the RCA jacks: Yellow jacks are typically video, and your Red and White jacks are for left and right audio (stereo). On the Raspberry Pi, the video RCA jack is the same size on both ends, but the audio RCA is two regular size jacks which pair down into a small MP3 headphone size jack that plugs into the Pi.
+You can see the RCA video plug in the pic below and the RCA audio plug is the small black plug next to it.
+To start the Pi up, I plugged the USB charger into the wall and the USB Type B connector into the back of the Raspberry Pi.</p>
+
+<p>The Raspbian menu lets you initially configure a lot of items which you will be potentially searching for after the setup &mdash; such as making it boot directly into X windows.
+If you have kids using it, making it boot into X windows is a <strong>MUST</strong>.  <strong>Note:</strong> Once you set your defaults from the first boot up, you will not see the configuration page again (I would have a pic of this had I known!).
+<em>You will have to ‘role up the sleeves’ and configure some Unix/Linux configuration files to make any changes after the initial setup.</em></p>
+
+<h2>Boot Up</h2>
+
+<p>The pic you can see below is the first boot up.</p>
+
+<p><img class="left" src="/images/IMG_1435.jpg" width="244" height="184" title="First boot up" >
+The boot up screen shows some typical Linux boot-up kernel ring buffer messages.
+The Raspberry Pi&rsquo;s boot up was rather speedy and took only a few seconds
+&ndash; the benefit of booting off of a flash drive.
+The Raspberry Pi is capable of detecting on boot whether you have the RCA jack plugged in or the HDMI cable plugged in.
+I recommend HDMI if you have a flat screen as it seems to be abled to handle the screen resolutions better than the RCA jack. &nbsp;</p>
+
+<h2>Pi Desktop</h2>
+
+<p><img class="right" src="/images/IMG_1462.jpg" width="244" height="184" title="Raspberry Pi desktop" ></p>
+
+<p>The Raspberry Pi logo is prominent on a rather clean desktop look. All of the main items such as the <a href="http://docs.python.org/2/library/idle.html">IDLE</a>, <a href="http://scratch.mit.edu/">Scratch</a> and Python Games.</p>
+
+<p>My sons enjoyed playing the “<a href="http://pygame.org/project-Squirrel+Eat+Squirrel-1853-3764.html">Squirrel Game</a>” which consists of trying to eat smaller squirrels to make your squirrel bigger.
+They kept at it until they won the game.<br/>
+My older son also played with scratch quite a bit – but it kept locking up, which I believe might be due to the under-powered <a href="http://en.wikipedia.org/wiki/Universal_Serial_Bus">USB</a> hub I was using.
+<img class="left" src="/images/IMG_1464.jpg" width="244" height="184" title="The Squirrel Game" >
+You really have to make sure you have a powered one, as the Pi can only supply so much power for the <a href="http://en.wikipedia.org/wiki/Universal_Serial_Bus">2 USB ports</a> that it has.
+Once you have a keyboard and mouse plugged in there is not much room for more.
+I used a USB hub to give me a little more ‘reach’ with my keyboard and mouse, so they didn’t have to be directly in front of the TV.
+The moral here: Make sure you have enough power for the USB bus – a steady 5 volts DC. Also: You will want a decent USB hub if you want to use more than the 2 USB Type A Plugs that are on the front of the Raspberry Pi.</p>
+
+<h2>Game Over</h2>
+
+<p><img class="center" src="/images/IMG_1445.jpg" width="244" height="184" title="Game Over" >
+So, it is ‘Game Over’ for this post on the Raspberry Pi. I will continue to tinker with it and hopefully have some more items to report.</p>
+</div>
+
+<div class="meta">
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+
+    </div>
+    <footer id="footer">
+    <div style="display:inline">
+    Copyright &copy; 2013
+
+    Ken Taylor
+. Powered by <a href="http://octopress.org">Octopress</a> | 
+    Theme <a href="http://github.com/panks/fabric">fabric</a> by <a href="http://panks.me">Pankaj Kumar</a>
+</div>
+
+
+    </footer>
+    <script src="/javascripts/fabric.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'switchspan';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://switchspan.github.io/blog/2013/01/14/raspberry-pi-finally/';
+        var disqus_url = 'http://switchspan.github.io/blog/2013/01/14/raspberry-pi-finally/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+<!-- end toload --> 
+</div>
+</div>
+<script src="/javascripts/jquery.ui.totop.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+;(function($){$().UItoTop({easingType:'easeOutCirc'});})(jQuery); 
+/*]]>*/
+</script><!-- remove it to remove the scroll to top button -->
+</body>
+</html>

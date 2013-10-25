@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: career | SwitchSpan]]></title>
+  <link href="http://switchspan.github.io/blog/categories/career/atom.xml" rel="self"/>
+  <link href="http://switchspan.github.io/"/>
+  <updated>2013-10-25T16:06:00-04:00</updated>
+  <id>http://switchspan.github.io/</id>
+  <author>
+    <name><![CDATA[Ken Taylor]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Future-Proofing Your Career]]></title>
+    <link href="http://switchspan.github.io/blog/2013/10/24/future-proofing-your-career/"/>
+    <updated>2013-10-24T11:53:00-04:00</updated>
+    <id>http://switchspan.github.io/blog/2013/10/24/future-proofing-your-career</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/images/prag_thinking_book.jpg" width="200" height="308">
+I finished reading <a href="http://pragprog.com/book/ahptl/pragmatic-thinking-and-learning">Pragmatic Thinking &amp; Learning: Refactor Your Wetware</a> by <a href="http://en.wikipedia.org/wiki/Andy_Hunt_%28author%29">Andy Hunt</a> a couple of days ago and I have been reflecting on it a lot lately. (Note: <a href="http://www.mindmeister.com/100157863/pragmatic-thinking-and-learning-refactor-your-wetware">here</a> is a very cool mind map of the books contents by <a href="http://www.mindmeister.com">MindMeister</a>) The major topics of the book are:</p>
+
+<ol>
+<li>The <a href="http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus model of skill acquisition</a></li>
+<li>Using your &lsquo;<a href="http://www.drawright.com/theory.htm">R-mode</a>&rsquo; of the brain</li>
+<li>Learning deliberately</li>
+<li>Gaining experience</li>
+</ol>
+
+
+<p>There are plenty of other items which Andy delves into throughout the book. It is very thoughtfully researched and written &mdash; and it is a <em>must</em> for any career software developer to read (Along with <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code</a>, <a href="http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073">The Clean Coder</a> and the <a href="http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1382726080&amp;sr=1-1&amp;keywords=The+Pragmatic+Programmer">Pragmatic Programmer</a>).</p>
+
+<h2>The &lsquo;Right&rsquo; Brain</h2>
+
+<p><img class="left" src="/images/dreyfus-model.png" width="289" height="70">
+At it&rsquo;s essence, the book points out that each of us have a different level of expertise in any skill we have  &mdash; be it programming, cooking, speaking, etc. The majority of people stay at a &lsquo;advance beginner&rsquo; level on the Dreyfus model and never really advance into the &lsquo;competent&rsquo;, &lsquo;proficient&rsquo; or &lsquo;expert&rsquo; levels of the model.  <img class="right" src="/images/left_right_brain.jpg" width="250" height="210">
+I believe we should all aspire to achieve an &lsquo;expert&rsquo; level skills in the areas that correspond to our career field. In order to attain this level, we have to engage the <a href="http://www.drawright.com/theory.htm">R-mode</a> of our brain to leverage our experiences. The R-mode is the holistic, intuitive, creative portion of our brain. You can&rsquo;t access your R-mode as easily as the <a href="http://www.creativeglossary.com/art-mediums/left-side-of-the-brain-l-mode-characteristics.html">L-mode</a> &mdash; in fact, it typically is drown out by L-mode &lsquo;chatter&rsquo; (e.g. the constant stream of though that pops into your head like &lsquo;<em>I wonder what I should eat for lunch&hellip;</em>&rsquo;).</p>
+
+<h2>Intuition and the Expert</h2>
+
+<p><img class="left" src="/images/intuition_head.jpg" width="250" height="250">
+Over the past couple of months I&rsquo;ve read quite a few technology related articles that seem to &ldquo;<a href="http://www.thefreedictionary.com/dovetail">dovetail</a>&rdquo; with the subject.  The book <a href="http://en.wikipedia.org/wiki/Blink_(book)">Blink: The Power of Thinking Without Thinking</a> by <a href="http://en.wikipedia.org/wiki/Malcolm_Gladwell">Malcolm Gladwell</a> points to increasing scientific evidence of the R-mode of the brain using what is termed &lsquo;<a href="http://en.wikipedia.org/wiki/Thin-slicing">thin-slicing</a>&rsquo; of events to generate what we think of as &lsquo;<em>intuition</em>&rsquo;. More often than not this intuition is correct &mdash; but it can be fooled by biases that the brain has.
+<img class="right" src="/images/blink_book.jpg" width="180" height="360">
+Intuition is one of the main items that gives an expert his/her expertise. It lets the expert arrive at a correct solution faster than any of the other levels of the Dreyfus model. <em>This speed and correctness is exactly what is needed to compete in our global economy</em>. <br/>
+We tend to discount intuition and the R-mode faculties because they can&rsquo;t be quantified as easily as say, passing a calculus exam with flying colors.</p>
+
+<h2>Rise of the Creative Economy</h2>
+
+<p><img class="left" src="/images/creativemind_illustrated.png" width="224" height="274">
+A good part of &lsquo;due diligence&rsquo; for your career should be looking ahead to the horizon to see what is on it. One of the recurring themes I see in most publications is the future demand for &lsquo;creatives&rsquo; in most organizations. A <a href="http://www.cato-unbound.org/2006/06/04/richard-florida/future-american-workforce-global-creative-economy">recent article</a> by the CATO institute points to the &lsquo;creative economy&rsquo; as the future of the american economy &mdash; while <a href="http://www.forbes.com/sites/elainepofeldt/2012/12/28/want-to-recession-proof-yourself-join-the-creative-class/">another article</a> by Forbes suggests joining the &ldquo;<a href="http://en.wikipedia.org/wiki/Creative_class">creative class</a>&rdquo; as a way to recession proof yourself.</p>
+
+<p>With all of the above in mind, how do we future-proof our careers in technology? I would start with reading <a href="http://pragprog.com/book/ahptl/pragmatic-thinking-and-learning">Pragmatic Thinking &amp; Learning</a>. While you are reading it, I would do three things:</p>
+
+<h3>1) Determine your interests</h3>
+
+<p>I believe you should align your career with what your interests are. Figure out what you like to do. This can turn a &lsquo;job&rsquo; that you work into a &lsquo;career&rsquo; that you enjoy. Think about it: <a href="http://www.ask.com/question/what-percentage-of-our-lives-are-spent-working">roughly one third of your life is spent working</a> &mdash; you might as well be doing something you enjoy.<br/>
+When you are doing something you like and are interested in, it makes learning easier as well. The <a href="http://www.wired.com">Wired magazine</a> article <a href="http://www.wired.com/business/2013/10/free-thinkers/">&ldquo;Free Thinkers&rdquo;</a> (by Joshua Davis) references new teaching methods which leverage that interest/curiosity in different subjects to accelerate learning.</p>
+
+<h3>2) Practice active career development</h3>
+
+<p>In order to attain competent, proficient or expert skill in a particular area you must deliberately and actively learn in the area. This means taking charge of your own professional development.</p>
+
+<h4>If you are a programmer/technologist:</h4>
+
+<p><img class="right" src="/images/ruby_users_meeting1.jpg" width="300" height="148">
+Don&rsquo;t wait for the company that you work for to send you to training or ask you to investigate a particular technology &mdash; go and learn it on your own.</p>
+
+<p>With all of the demands of a busy life, this means <strong>you</strong> are going to need to set time aside to learn the subject. If you don&rsquo;t schedule it and abide by the schedule it probably won&rsquo;t get done.</p>
+
+<p>Here are some suggestions:</p>
+
+<ul>
+<li>Read a new technology book (or two)</li>
+<li>Play around with a new framework or language</li>
+<li>Get involved in maintaining an <a href="http://en.wikipedia.org/wiki/Open-source_software">OSS</a> project.</li>
+</ul>
+
+
+<p>Find the learning technique that works best for you. We have so many learning resources today (thanks in large part to the proliferation of Internet technologies). Here are a few:</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Massive_open_online_course">MOOCs</a> ( <a href="http://www.edx.org/">edX</a>, <a href="http://www.coursera.org">Coursera</a>, <a href="http://www.udacity.com">Udacity</a>, et al. )</li>
+<li>The <a href="https://www.khanacademy.org/">Khan Academy</a> &amp; <a href="http://www.youtube.com/">YouTube</a> HowTo videos</li>
+<li>Technology related blogs &amp; sites</li>
+<li>Tutorial &amp; Learning Sites ( <a href="http://www.pluralsight.com">PluralSight</a>, <a href="http://www.codeschool.com">CodeSchool</a>, <a href="http://www.codecademy.com/">CodeAcademy</a>, <a href="http://teamtreehouse.com/">TreeHouse</a> et al. )</li>
+</ul>
+
+
+<p>My personal favorite learning technique: <strong>get involved in a local user group</strong>. Surround yourself with others who are actively learning: <em>Exchange ideas.</em> <em>Network.</em> Give a talk on a technology that you like! Nothing hammers a topic home better than having to teach it.</p>
+
+<p>I highly recommend making your own &ldquo;<a href="http://nohack.eingenetzt.com/character-building/pragmatic-investment-plan/">Pragmatic Investment Plan</a>&rdquo; to practice career development.</p>
+
+<h3>3) Engage your creative side</h3>
+
+<p><img class="left" src="/images/sketching-the-branding-process.jpg" width="200" height="196">
+In order to use the R-mode thinking you need to work at engaging your creative side actively. <em>The R-mode can only be invited&mdash;not compelled&mdash;to work on a problem.</em> The L-mode of your brain will drown out the R-mode in most cases. You must find ways to silence the L-mode chatter and allow the R-mode to &ldquo;do it&rsquo;s thing&rdquo;&trade;.</p>
+
+<p>The ways to do this are too numerous to list in a blog post &mdash; so here are just a few:</p>
+
+<ul>
+<li>Draw a picture of the problem you are trying to solve. What visual metaphor is appropriate?</li>
+<li>Describe problems verbally <img class="right" src="/images/meditation_pic.jpg" width="200" height="200"></li>
+<li>Use <a href="http://en.wikipedia.org/wiki/Mind_map">mindmaps</a> when brainstorming</li>
+<li>Use a walk as a way to clear the L-mode &lsquo;chatter&rsquo;</li>
+<li>Try acting out a process rather than diagramming it</li>
+<li>Doodle in your idle time or during a phone call</li>
+<li>Keep a dream log</li>
+<li>Take up daily meditation</li>
+</ul>
+
+
+<h2>Conclusion</h2>
+
+<p>Managing <strong>your</strong> career is <strong>your</strong> own responsibility. <img class="left" src="/images/footprints_sand.jpg" width="200"> Take an active role in this portion of your life and never quit striving to learn more.</p>
+
+<p><em>Become a better learner.</em> <em>Start the journey to expert in a skill area.</em></p>
+
+<p>Leave a comment and let me know how your journey is progressing!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Refining your tech talk]]></title>
+    <link href="http://switchspan.github.io/blog/2013/01/10/refining-your-tech-talk/"/>
+    <updated>2013-01-10T09:30:00-05:00</updated>
+    <id>http://switchspan.github.io/blog/2013/01/10/refining-your-tech-talk</id>
+    <content type="html"><![CDATA[<h2>Shaking off the rust</h2>
+
+<p><img class="left" src="/images/hanselman.jpg" title="Scott Hanselman" >
+Last night I did the first tech talk (<a href="http://www.rabbitmq.com/">RabbitMQ</a> and <a href="http://easynetq.com/">EasyNetQ</a>) that I have done in at least a one or two years at the <a href="http://www.hrnug.org/">Hampton Roads .NET Users Group (HRNUG)</a>.</p>
+
+<p>I try to have respect for my audience when giving these talks and work
+provide them with something that is entertaining as well as
+educational. I wouldn’t want my time wasted with a bad presentation – so I don’t want to waste the audience’s time either! In giving my talks, I strive to emulate the great tech speakers and educators like <a href="http://www.hanselman.com/blog/">Scott Hanselman</a> and <a href="http://www.8thlight.com/our-team/robert-martin">‘Uncle Bob’ Martin</a>.</p>
+
+<!-- more -->
+
+
+<p><a href="http://wekeroad.com/">Rob Connery</a> does a great interview of Scott Hanselman in his Full Throttle series on Tekpub on <a href="http://tekpub.com/productions/ft_speaker">how Scott prepares for a tech talk</a>. If you are serious about giving tech talks, I highly recommend you look at it.</p>
+
+<h2>What I learned</h2>
+
+<p>Tech talks can through you some curve-balls that; if you are willing to pay attention, can provide some teachable moments that you can use to refine future tech talks. I found my teachable moments in a couple of areas while giving the presentation:</p>
+
+<ol>
+<li><p>Make sure to use your phone or watch as a timer – to help you keep the ‘pace’ through your tech talk. Setting it to the max talk time and having it count down will work – or have a half way point set and check to see where you are in the total presentation I was allotted 60 – 75 minutes, but my talk came in at around 45 minutes because I though I was running out of time. These extra minutes could have been used to dive deeper into my code examples!</p></li>
+<li><p>If you haven’t been playing with PowerPoint lately, <a href="http://presentationsoft.about.com/od/powerpoint101/ss/shortcuts.htm">brush up on the start (F5) / restart (SHIFT-F5) keystrokes</a>. When you are in the middle of a presentation, it can disrupt the flow of the talk when you have to forward to the last slide you where one. I rehearsed my talk, except I didn’t rehearse switching into my demos. While F5 will start a slideshow in Power Point, it always starts at the beginning. In the middle of the talk, I couldn’t remember what the restart keystroke was, so I had to forward from the beginning slide each time I stopped for a demo. This can be a little choppy for the viewers.</p></li>
+<li><p>If you use any other tools, such as <a href="http://technet.microsoft.com/en-us/sysinternals/bb897434.aspx">ZoomIt</a> – make sure you set their key mappings to what you want them to be and make sure you practice using it in your talk rehearsal.</p></li>
+</ol>
+
+
+<p> Fortunately I get a do-over next month with the <a href="http://757rb.org/">757 Ruby Users Group</a>. I have some tweaking to do to the presentation in order to tailor it for a slightly different audience, but the changes are really just the demos and substituting the <a href="https://github.com/ruby-amqp/amqp">amqp gem</a> for EasyNetQ. But my lessons learned on the presentation flow will definitely be incorporated.</p>
+
+<p><img class="center" src="/images/unclebob.jpg" title="Uncle Bob Martin" ></p>
+
+<p> I am sure there will be many more of these teachable moments in the future…</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Global day of Coderetreat]]></title>
+    <link href="http://switchspan.github.io/blog/2012/12/09/global-day-of-coderetreat/"/>
+    <updated>2012-12-09T20:44:00-05:00</updated>
+    <id>http://switchspan.github.io/blog/2012/12/09/global-day-of-coderetreat</id>
+    <content type="html"><![CDATA[<p>Yesterday I participated in my first
+<a href="http://coderetreat.org">coderetreat</a> at <a href="http://www.757creativespace.com">757 Creative Space</a> in Norfolk, VA.
+ This happened to be the <a href="http://globalday.coderetreat.org/">Global day of Coderetreat</a> (which was organized by coderetreat.org) and now I am wondering why I didn’t go to a coderetreat sooner.
+The coderetreat was facilitated by <a href="http://myfakeif.blogspot.com/">Ryan
+Castillo</a> from the <a href="http://757rb.org">757Ruby users group</a> and sponsored by some great companies: <a href="http://www.bootstraphero.com">Bootstrap
+Hero</a> and <a href="http://www.xtuple.com/">xTuple</a> sponsored all of the good eats (which are essential to keep the code flowing!) and there were quite a few other great sponsors as well.</p>
+
+<!-- more -->
+
+
+<h2>What is a code retreat?</h2>
+
+<p><img class="left" src="/images/IMG_1509.jpg" width="184" height="244">
+If you haven’t been to a coderetreat – it basically a day of honing your software development skills to become a better developer.
+If you are serious about your profession as a software developer – these
+types of training opportunities are ones you should attend. In our day’s
+retreat, we focused on the skills of
+<a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a> and
+<a href="http://www.extremeprogramming.org/rules/pair.html">Pair Programming</a>.
+Both of these techniques are part of <a href="http://www.extremeprogramming.org/index.html">Extreme Programming</a>.
+The idea for coderetreat was spawned at the January, 2009, Codemash
+Conference by Gary Bernhardt, Patrick Welsh, Nayan Hajratwala and Corey
+Haines.</p>
+
+<h2>The day&rsquo;s activities</h2>
+
+<p><img class="right" src="/images/IMG_1510.jpg" width="244" height="184">
+The only project used for the day is to code a version of <a href="http://en.wikipedia.org/wiki/Conway%27s_game_of_life">Conway&rsquo;s Game
+of Life</a>.
+Now, I knew a little about the Game of Life and that it was typically central to a coderetreat, but I purposefully did not look up any info on coding it, because I didn’t want it to take away from the discovery experience.
+Programmers are typically paired for 45 minutes and each pair has to delete all code and destroy all notes at the end of their iteration.</p>
+
+<p>Ryan did a great job of getting everyone introduced and oriented. Once we had all of the intros under our belt, we paired up and started on our first iteration of the Game of Life.</p>
+
+<h3>Along came the curve-balls</h3>
+
+<p>Then came the curve-balls: requirements changing during the iterations, ping-pong coding (switching the person typing and observing between writing functions), blind coding (the 2 programmers couldn’t talk, and one wrote the tests – the other the code to pass the test) and timed coding from test to implementation.
+<img class="left" src="/images/IMG_1512.jpg" width="244" height="184"></p>
+
+<p>Each of these “curve-balls” built on the other and exposed some of the typical flaws in the way most people write software as well as the things that can be done to fix it.
+After each 45 minute iteration we held a sort of “after action review” to see what each person had learned from the iteration.
+These iterations brought out the importance of writing clear function/method/variable names, writing your tests first, and doing the simplest thing possible to pass the test, then moving to the next item.
+It is amazing to see how quickly this technique of TDD can flush out an excellent design for any software project.</p>
+
+<h3>The retrospective</h3>
+
+<p>The day ended in a wrap-up review of all of the items during the day from iteration – to see what we had learned, what were surprised by, and what we would change.
+Everyone seemed to have picked up something constructive from the experience – so the coderetreat was in my opinion a big success.</p>
+
+<p>Ryan was a great facilitator for the event – he nudged us into seeing the ‘teachable moments’ during the iterations.
+Meeting all of the great developers there was also a great part of the experience.
+We had programmers coding in Java, C#, Ruby, Python, JavaScript, and even Objective-C. Everyone was willing to work with others, even in languages they were not quite familiar with.
+ We even had a pair of developers that came down from Richmond to attend the event.</p>
+
+<p>I look forward to the next coderetreat!</p>
+]]></content>
+  </entry>
+  
+</feed>

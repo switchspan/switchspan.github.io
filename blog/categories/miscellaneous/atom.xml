@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: miscellaneous | SwitchSpan]]></title>
+  <link href="http://switchspan.github.io/blog/categories/miscellaneous/atom.xml" rel="self"/>
+  <link href="http://switchspan.github.io/"/>
+  <updated>2013-10-25T16:06:00-04:00</updated>
+  <id>http://switchspan.github.io/</id>
+  <author>
+    <name><![CDATA[Ken Taylor]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[From WordPress to Octopress]]></title>
+    <link href="http://switchspan.github.io/blog/2013/06/02/from-wordpress-to-octopress/"/>
+    <updated>2013-06-02T12:59:00-04:00</updated>
+    <id>http://switchspan.github.io/blog/2013/06/02/from-wordpress-to-octopress</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/images/wordpress_to_octopress.png" width="440" title="&lsquo;Wordpress to Octopress&rsquo;" ></p>
+
+<p>You may or may not have noticed this blog has switched from a
+hosted <a href="http://www.wordpress.org">WordPress</a> blog to a <a href="http://octopress.org">Octopress</a> blog.
+I originally started looking at migrating the blog for a couple of
+reasons:</p>
+
+<ol>
+<li>I love ruby and I wanted to play around with <a href="http://jekyllrb.com">Jekyll</a></li>
+<li>Jekyll can be deployed easily to <a href="http://pages.github.com">GitHub Pages</a></li>
+<li>Github Pages is free (as in like free beer&hellip;)</li>
+<li>The amount of comment spam I am getting on WordPress was driving me
+crazy (yes I know I can use Akismet)</li>
+<li>I wanted to customize my blog a little more than what is allowed
+with WordPress</li>
+</ol>
+
+
+<!-- more -->
+
+
+<h2>The initial search</h2>
+
+<p> Initially I started looking at some of the blogging tools that my
+friends at the <a href="http://757rb.org">Hampton Roads Ruby Users Group</a> where using.
+The first one I came across that caught my interest was <a href="http://github.com/metaskills">Ken Collins'</a> blog: <a href="http://metaskills.net">metaskills.net</a>.
+The metaskills blog uses a modified version of Jekyll which Ken has added in a few items to organize and publish easier.
+You can check out his code <a href="https://github.com/metaskills/metaskills.net">here</a>.</p>
+
+<h3>First draft: Jekyll</h3>
+
+<p><img class="right" src="/images/octojekyll.png" width="200" title="&lsquo;OctoJekyll&rsquo;" >
+I started out creating a plain Jekyll blog and looking at how the static
+site generation worked.
+There are plenty of resources on the <a href="http://jekyllrb.com">Jekyll site</a> which can show you how to install Jekyll and get it running.
+You will need <a href="http://www.ruby-lang.org">Ruby</a> and
+<a href="http://www.rubygems.org">RubyGems</a>.
+If you are dabbling in Ruby or Rails, you will already have both of them.</p>
+
+<h3>Second draft: Jekyll Bootstrap</h3>
+
+<p><img class="left" src="/images/Jekyll-bootstrap-screen.png" width="300" title="&lsquo;Jekyll Bootstrap Getting Started screen&rsquo;" >
+While I found Jekyll pretty cool, I wanted my site to have a little bit
+of styling.
+Not being a graphic designer of any sort, I started looking for some
+themes that I could use to modify.
+After doing a little digging on Google for Jekyll themes, I found <a href="http://jekyllbootstrap.com">Jekyll Bootstrap</a> by
+X. Note: There is also another spin off from this project called
+<a href="http://ruhoh.com">Ruhoh</a>.</p>
+
+<h3>Final draft: Octopress</h3>
+
+<p><img class="right" src="/images/octopress-logo.png" width="200" title="&lsquo;Octopress Logo&rsquo;" >
+I am not sure why I never noticed or found it sooner (as I am sure I
+have heard of Octopress before!) &mdash; but I finally stumbled across the
+<a href="http://octopress.org">Octopress site</a>. Octopress is a framework
+designed by <a href="http://brandonmathis.com">Brandon Mathis</a> for Jekyll.</p>
+
+<p><strong>I had finally found the toolset I was looking for!</strong></p>
+
+<p>Octopress had plenty of themes, still stuck to Jekyll as the method of generating static
+sites &mdash; and had plugins which smoothed over some of the &lsquo;warts&rsquo; of
+Jekyll out of the box.</p>
+
+<p>Here is some of the static blog-generating goodness (i.e. integrations) you will find in
+Octopress:</p>
+
+<ul>
+<li>Github</li>
+<li>Google+</li>
+<li>Twitter</li>
+<li>Disqus</li>
+<li>Google Analytics</li>
+<li>Pinboard</li>
+<li>Delicious</li>
+<li>Facebook likes</li>
+</ul>
+
+
+<p>The configuration file in a &lsquo;stock&rsquo; Octopress install is a nice YAML
+layout. Here is a snippet:</p>
+
+<p>``` yaml _config.yml</p>
+
+<h1>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</h1>
+
+<h1>Main Configs</h1>
+
+<h1>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</h1>
+
+<p>url: <a href="http://yourblogurl.com">http://yourblogurl.com</a>
+title: Your Blog Name
+subtitle: Some catchy subtitle..
+author: Your Name Here
+simple_search: <a href="http://google.com/search">http://google.com/search</a>
+description: This will show in the META tags
+```</p>
+
+<p>Making changes is as easy as changing the appropriate key/value
+pair and then from the terminal, run: <code>rake preview</code> to view it on <a href="http://localhost:4000">http://localhost:4000</a></p>
+
+<p>Deploying the site is just as easy:
+<code>bash
+rake generate   #generate the static site content
+rake deploy     #deploy the site to your deploy location (i.e. github)
+</code>
+You can even abbreviate deployment to: <code>rake gen_deploy</code></p>
+
+<p>Octopress also has plenty of themes as a starting point for customizing your own blog.
+The github repo <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">here</a> is a good starting point for 3rd party Octopress themes.</p>
+
+<p>I am now (<em>for the time being</em>) sold on Octopress and will be using it for
+my posts going forward. If you are in the market for a new static
+blogging platform, give it a try &mdash; I think you will be pleasantly
+surprised.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Batteries Included]]></title>
+    <link href="http://switchspan.github.io/blog/2013/04/05/batteries-included/"/>
+    <updated>2013-04-05T09:05:00-04:00</updated>
+    <id>http://switchspan.github.io/blog/2013/04/05/batteries-included</id>
+    <content type="html"><![CDATA[<p>I usually use a desktop PC and my Macbook Air on a daily basis during the week. In going back and forth between Windows and Mac OS X, I have noticed a couple of things that have hammered home the point that hardware is not the only thing Apple does well &mdash; software is too.</p>
+
+<!-- more -->
+
+
+<p><img class="left" src="/images/password_protect_files_snowleopard.jpg" width="350" title="Save as PDF on Mac" >
+The first thing that occurred to me is Mac OS X has had the ability to print and edit PDF files at least since Mac OS X Leopard. With Windows, I need to download some type of PDF print driver and an Adobe viewer. Mac OS X has preview (which works for both images and PDF files), which will let me view and do some light editing on a PDF file as wells annotate.</p>
+
+<p><img class="right" src="/images/notification-center.jpg" title="Mac OS Notification Center" >
+The second thing I noticed was Mac OS X Lions notifications center provides not only a nice area to see your email and app notifications, but also an easy way to post to Twitter and Facebook. Growl notification is baked in as well &mdash; I have to download a growl client for windows (and the app has to use Growl).</p>
+
+<p>I am not quite sure why Windows doesn&rsquo;t have &ldquo;batteries included&rdquo; when it comes to PDF files, but it is just a nice feature that Apple has added into Mac OS X. Don&rsquo;t get me wrong: I have used Windows for a long time &mdash; and I was a Windows user before I used a Mac. Windows gets a lot of things right and I will continue to use Windows as well &mdash; but Apple seems to be getting very good at sanding down the &ldquo;friction points&rdquo; you encounter with software to make for an easier, elegant user experience.</p>
+
+<p>Sometimes its just nice for things to work as you intend them to and to serendipitously find some functionality that is often overlooked&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[DIY]]></title>
+    <link href="http://switchspan.github.io/blog/2012/11/18/diy/"/>
+    <updated>2012-11-18T23:36:00-05:00</updated>
+    <id>http://switchspan.github.io/blog/2012/11/18/diy</id>
+    <content type="html"><![CDATA[<p>Well today was a productive day: I changed the rear brake pads and rotors for my car today.</p>
+
+<p><img class="left" src="/images/car_repair_8bit.jpg" width="325">
+Yes, I know this is not as great an automotive accomplishment as rebuilding an engine. However, I find something innately satisfying with getting your hands dirty and figuring out how to do something you normally don&rsquo;t do. I have always enjoyed figuring out how to fix things and perhaps that is what drew me into computers and software.</p>
+
+<!-- more -->
+
+
+<p>I believe we have a lot of technology (cars being one of them) that most of us use and take for granted. When this technology needs to be maintained/repaired many of us lack the knowledge to do so. My personal goal to counter this lack of &lsquo;automotive know-how&rsquo; is to fix whatever can on my car, whenever I can &mdash; and hopefully save money in the process.</p>
+
+<p>Here are some of the resources I have found helpful:</p>
+
+<ul>
+<li><a href="http://www.oreillyauto.com/">O'Reilly auto parts</a> &ndash; my favorite auto parts store.</li>
+<li><a href="http://www.haynes.com/mole-video">Haynes Manuals Online</a> &ndash; a must have for DIY auto repair.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
