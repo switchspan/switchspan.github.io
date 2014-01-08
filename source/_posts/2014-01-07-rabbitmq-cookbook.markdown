@@ -2,6 +2,7 @@
 layout: post
 title: "RabbitMQ Cookbook"
 date: 2014-01-07 20:20
+published: false
 comments: true
 categories: learning 
 tags: 
@@ -9,7 +10,7 @@ tags:
 - technology
 ---
 {% img left /images/rabbitmq_cookbook.jpg 200 %}
-I recently finished my first go at being a technical reviewer for a technology book: the [RabbitMQ Cookbook][cookbook]. I kind of 'happened' into reviewing from some of the tech talks, blog posts and [slide decks][slides] I have done on the subject of [RabbitMQ][rabbitmq]. An editorial representative from [Packt Publishing][packt] contacted me to see if I would be interested in being a technical reviewer for the up comming book -- and the adventure began.
+I recently finished my first go at being a technical reviewer for a technology book: the [RabbitMQ Cookbook][cookbook]. I kind of 'happened' into reviewing from some of the tech talks, blog posts and [slide decks][slides] I have done on the subject of [RabbitMQ][rabbitmq]. An editorial representative from [Packt Publishing][packt] contacted me to see if I would be interested in being a technical reviewer for the upcoming book -- and the adventure began.
 
 A technical reviewer looks primarily at the technical correctness and ease of understanding in each of the chapters. There are plenty of opportunities to offer suggestions for improvements to the author(s).
 
@@ -21,7 +22,7 @@ TBD
 
 This book is an excellent resource for anyone looking to use RabbitMQ (or any other AMQP server for that matter...) for queuing/integration. Most modern software components [pass messages][messages] to other components, not data. I thoroughly enjoyed reviewing this book and learn some new RabbitMQ tricks in the process. The format uses a clean cookbook of recipe description, how to implement the recipe, and how the recipe works. It makes finding a solution to a queuing challenge a quick and easy process.
 
-This book comprises over 265 pages and 70 recipes for a myriad of integration solutions. [Sigismondo][sigis] and [Gabriele][gab] did a great job of showing code examples for Java, C#, Python as well as others languages. In addition to the examples, they also show how to properly manage a RabbitMQ server and deploy it to the cloud.
+This book comprises over 265 pages and 70 recipes for a myriad of integration solutions. [Sigismondo][sigis] and [Gabriele][gab] did a great job of showing code examples for Java, C#, Ruby as well as others languages. In addition to the examples, they also show how to properly manage a RabbitMQ server and deploy it to the cloud.
 
 Here is a brief table of contents:
 
